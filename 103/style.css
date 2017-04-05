@@ -1,0 +1,10 @@
+#queue {
+    -webkit-padding-start: 0;
+}
+#queue li {
+    display: inline;
+    padding: 10px;
+    margin: 0 10px 0 0;
+    background-color: red;
+    color: white;
+}
