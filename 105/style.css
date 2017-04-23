@@ -1,0 +1,9 @@
+#queue {
+    -webkit-padding-start: 0;
+}
+#queue li {
+    display: inline-block;
+    width: 20px;
+    margin: 0 10px 0 0;
+    background-color: red;
+}
