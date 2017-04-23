@@ -16,12 +16,12 @@
       }
       numberInput.value = ''
     } else {
-      alert('Your input is not a number!')
+      window.alert('Your input is not a number!')
     }
   };
   function pop (direction) {
     let element = direction === 'l' ? queue.firstElementChild : queue.lastElementChild
-    alert(element.textContent)
+    window.alert(element.textContent)
     queue.removeChild(element)
   }
   function validate (value) {
